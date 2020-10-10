@@ -1,0 +1,10 @@
+.detail {
+  padding: 0.2em;
+}
+
+.description {
+  /* pre 태그의 문제점  */
+  /* 텍스트가 붙어있으면... width가 사정없이 넓어집니다. */
+  /* 그래서 wrapping을 해줍니다. */
+  white-space: pre-wrap;
+}
